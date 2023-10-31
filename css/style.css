@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 60px 150px;
+    font-size: 16px;
+    background-color:#000 ;
+}
+.card {
+    width: 800px;
+    height: 800px;
+    background-color:aliceblue;
+    padding: 10px 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+main {
+    margin: 0px auto;
+    position: relative;
+
+}
+main:first-child img {
+    border-radius: 10px;
+}
+button {
+    color: #fff;
+    padding: 10px 12px ;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-btn {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+    display: flex;
+    gap:15px;
+}
+.main-btn > button {
+    background-color: #333;
+}
+#phone {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+}
+#phone img {
+    color: #fff;
+}
+button img {
+    width: 15px;
+    height: 15px;
+    color: blue;
+}
+
+article {
+    display: flex;
+    margin: 20px auto 0 auto;
+    gap: 10px;
+}
+.options {
+    background-color: #fff;
+    width: 80px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.options button {
+    border: none;
+}
+
+.options button i {
+    color: blue;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+small {
+    color:#c3afaf;
+    white-space: nowrap;
+}
